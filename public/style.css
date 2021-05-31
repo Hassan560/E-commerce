@@ -1,0 +1,139 @@
+.bg-light {
+  background-color: rgb(206 213 223) !important;
+}
+
+.navbar-brand img {
+  width: 80px;
+  margin-left: 20px;
+}
+.nav-item {
+  font-weight: bold;
+}
+.fa-shopping-cart {
+  font-size: 30px;
+}
+.fa-user {
+  font-size: 30px;
+}
+.navbar-text {
+  margin-right: 20px;
+}
+.nav-link {
+  color: black !important;
+}
+
+.one {
+  margin: 12px auto;
+  text-align: center;
+}
+.fa-credit-card-alt,
+.fa-star-o,
+.fa-location-arrow {
+  font-size: 40px;
+  margin-right: 12px;
+}
+.card1,
+.card2,
+.card3 {
+  margin-top: 15px;
+  display: flex;
+  width: 350px;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 3px 7px black;
+  background-color: #eeeeef;
+  border: 1px solid black;
+}
+.main-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 710px) {
+  .card1,
+  .card2,
+  .card3 {
+    width: 100%;
+  }
+}
+.card {
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #eeeeef;
+  /* border: 1px solid black; */
+  width: 250px;
+}
+.card img {
+  width: 200px;
+  height: 200px;
+}
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btn-primary {
+  background-color: gray;
+  border: none;
+  width: 140px;
+}
+.btn-primary:hover {
+  background-color: rgb(187, 187, 187);
+  color: black;
+}
+/* form{
+  width: 200px;
+} */
+@media screen and (max-width: 485px) {
+  .card {
+    width: 330px;
+  }
+  .card img {
+    width: 216px;
+  }
+}
+form {
+  width: 440px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+input,
+textarea {
+  width: 430px;
+  border-radius: 12px;
+}
+label {
+  font-size: 23px;
+}
+@media screen and (max-width: 490px) {
+  input,
+  textarea {
+    width: 288px;
+  }
+  form {
+    width: 280px;
+  }
+}
+.but {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bit {
+  padding: 5px 15px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+.bit:hover {
+  background-color: gray;
+  color: white;
+}
